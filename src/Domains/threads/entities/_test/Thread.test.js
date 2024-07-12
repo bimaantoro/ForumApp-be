@@ -98,8 +98,8 @@ describe('a Thread entities', () => {
     const comments = [
       new Comment({
         id: 'comment-123',
-        username: 'johndoe',
-        date: '2021-08-08T07:22:33.555Z',
+        username: 'dicoding',
+        date: '2021-08-08T07:26:21.338Z',
         content: 'sebuah comment',
         isDelete: false,
       }),
