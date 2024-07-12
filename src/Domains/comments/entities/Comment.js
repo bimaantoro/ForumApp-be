@@ -1,4 +1,4 @@
-const Reply = require("../../replies/entities/Reply");
+const Reply = require('../../replies/entities/Reply');
 
 class Comment {
   constructor(payload) {
@@ -34,13 +34,13 @@ class Comment {
   setReplies(replies) {
     const isReplyArray = Array.isArray(replies);
 
-    if(!isReplyArray) {
-        throw new Error('COMMENT.REPLIES_NOT_ARRAY');
+    if (!isReplyArray) {
+      throw new Error('COMMENT.REPLIES_NOT_ARRAY');
     }
 
-    const isAnyInvalidReply = replies.some((reply) => !(reply instanceof Reply))
+    const isAnyInvalidReply = replies.some((reply) => !(reply instanceof Reply));
 
-    if(isAnyInvalidReply) {
+    if (isAnyInvalidReply) {
       throw new Error('COMMENT.REPLIES.CONTAINS_INVALID_MEMBER');
     }
 

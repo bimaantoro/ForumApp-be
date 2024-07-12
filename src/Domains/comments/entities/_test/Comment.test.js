@@ -40,7 +40,7 @@ describe('a Comment entities', () => {
 
     // Action
     const {
-      id, username, date, content, replies
+      id, username, date, content, replies,
     } = new Comment(payload);
 
     // Assert
@@ -48,24 +48,24 @@ describe('a Comment entities', () => {
     expect(username).toEqual(payload.username);
     expect(date).toEqual(payload.date);
     expect(content).toEqual('**komentar telah dihapus**');
-    expect(replies).toEqual([])
+    expect(replies).toEqual([]);
   });
 
   it('should throw error when replies not contain array', () => {
     // Arrange
     const payload = {
-        id: 'comment-123',
-        username: 'dicoding',
-        date: '2021-08-08T07:19:09.775Z',
-        content: 'sebuah comment',
-        isDelete: false,
-      };
+      id: 'comment-123',
+      username: 'dicoding',
+      date: '2021-08-08T07:19:09.775Z',
+      content: 'sebuah comment',
+      isDelete: false,
+    };
 
-      const comment = new Comment(payload);
+    const comment = new Comment(payload);
 
-      // Action and Assert
-      expect(() => comment.setReplies({})).toThrowError('COMMENT.REPLIES_NOT_ARRAY');
-  })
+    // Action and Assert
+    expect(() => comment.setReplies({})).toThrowError('COMMENT.REPLIES_NOT_ARRAY');
+  });
 
   it('should throw error when replies not contain Replies object', () => {
     // Arrange
@@ -83,7 +83,7 @@ describe('a Comment entities', () => {
     expect(() => comment.setReplies([{}])).toThrowError('COMMENT.REPLIES.CONTAINS_INVALID_MEMBER');
   });
 
-it('should set replies correctly', () => {
+  it('should set replies correctly', () => {
     // Arrange
     const payload = {
       id: 'comment-123',
