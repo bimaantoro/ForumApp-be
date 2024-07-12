@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1720787339852" clover="3.2.0">
-  <project timestamp="1720787339852" name="All files">
-    <metrics statements="88" coveredstatements="88" conditionals="63" coveredconditionals="63" methods="17" coveredmethods="17" elements="168" coveredelements="168" complexity="0" loc="88" ncloc="88" packages="4" files="11" classes="11"/>
+<coverage generated="1720793808464" clover="3.2.0">
+  <project timestamp="1720793808464" name="All files">
+    <metrics statements="113" coveredstatements="113" conditionals="87" coveredconditionals="87" methods="23" coveredmethods="23" elements="223" coveredelements="223" complexity="0" loc="113" ncloc="113" packages="5" files="13" classes="13"/>
     <package name="Commons.exceptions">
       <metrics statements="22" coveredstatements="22" conditionals="3" coveredconditionals="3" methods="5" coveredmethods="5"/>
       <file name="AuthenticationError.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Commons/exceptions/AuthenticationError.js">
@@ -58,8 +58,18 @@
         <line num="24" count="1" type="stmt"/>
       </file>
     </package>
+    <package name="Domains.comments.entities">
+      <metrics statements="4" coveredstatements="4" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2"/>
+      <file name="Comment.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Domains/comments/entities/Comment.js">
+        <metrics statements="4" coveredstatements="4" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="13" count="2" type="cond" truecount="7" falsecount="0"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+      </file>
+    </package>
     <package name="Domains.threads.entities">
-      <metrics statements="22" coveredstatements="22" conditionals="20" coveredconditionals="20" methods="4" coveredmethods="4"/>
+      <metrics statements="43" coveredstatements="43" conditionals="37" coveredconditionals="37" methods="8" coveredmethods="8"/>
       <file name="AddedThread.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Domains/threads/entities/AddedThread.js">
         <metrics statements="11" coveredstatements="11" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
         <line num="3" count="3" type="stmt"/>
@@ -87,6 +97,30 @@
         <line num="19" count="2" type="cond" truecount="5" falsecount="0"/>
         <line num="20" count="1" type="stmt"/>
         <line num="25" count="1" type="stmt"/>
+      </file>
+      <file name="Thread.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Domains/threads/entities/Thread.js">
+        <metrics statements="21" coveredstatements="21" conditionals="17" coveredconditionals="17" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="22" count="6" type="cond" truecount="7" falsecount="0"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="26" count="5" type="cond" truecount="6" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="34" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="40" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
       </file>
     </package>
     <package name="Domains.users.entities">

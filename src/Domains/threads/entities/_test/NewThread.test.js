@@ -27,7 +27,7 @@ describe('a NewThread entities', () => {
     // Arrange
     const payload = {
       title: 'sebuah thread',
-      body: 'body thread',
+      body: 'sebuah body thread',
       owner: 'user-123',
     };
 
