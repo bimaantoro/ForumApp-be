@@ -2,7 +2,9 @@ class Reply {
   constructor(payload) {
     this._verifyPayload(payload);
 
-    const {id, username, content, date, isDelete} = payload;
+    const {
+      id, username, content, date, isDelete,
+    } = payload;
 
     this.id = id;
     this.username = username;
@@ -17,12 +19,12 @@ class Reply {
     content,
     isDelete,
   }) {
-    if(!id || !username || !content || isDelete === undefined || isDelete === null) {
-        throw new Error('REPLY.NOT_CONTAIN_NEEDED_PROPERTY')
+    if (!id || !username || !content || isDelete === undefined || isDelete === null) {
+      throw new Error('REPLY.NOT_CONTAIN_NEEDED_PROPERTY');
     }
 
-    if(typeof id !== 'string' || typeof username !== 'string' || typeof date !== 'string' || typeof content !== 'string' || typeof isDelete !== 'boolean') {
-        throw new Error('REPLY.NOT_MEET_DATA_TYPE_SPECIFICATION')
+    if (typeof id !== 'string' || typeof username !== 'string' || typeof date !== 'string' || typeof content !== 'string' || typeof isDelete !== 'boolean') {
+      throw new Error('REPLY.NOT_MEET_DATA_TYPE_SPECIFICATION');
     }
   }
 }
