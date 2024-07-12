@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1720813075615" clover="3.2.0">
-  <project timestamp="1720813075615" name="All files">
-    <metrics statements="209" coveredstatements="209" conditionals="177" coveredconditionals="177" methods="46" coveredmethods="46" elements="432" coveredelements="432" complexity="0" loc="209" ncloc="209" packages="8" files="22" classes="22"/>
+<coverage generated="1720816382092" clover="3.2.0">
+  <project timestamp="1720816382092" name="All files">
+    <metrics statements="213" coveredstatements="213" conditionals="177" coveredconditionals="177" methods="49" coveredmethods="49" elements="439" coveredelements="439" complexity="0" loc="213" ncloc="213" packages="9" files="23" classes="23"/>
     <package name="Commons.exceptions">
       <metrics statements="22" coveredstatements="22" conditionals="3" coveredconditionals="3" methods="5" coveredmethods="5"/>
       <file name="AuthenticationError.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Commons/exceptions/AuthenticationError.js">
@@ -187,6 +187,16 @@
         <line num="26" count="3" type="cond" truecount="7" falsecount="0"/>
         <line num="27" count="1" type="stmt"/>
         <line num="32" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="Domains.threads">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="ThreadRepository.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Domains/threads/ThreadRepository.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
       </file>
     </package>
     <package name="Domains.threads.entities">
