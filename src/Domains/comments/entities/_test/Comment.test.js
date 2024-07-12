@@ -46,6 +46,6 @@ describe('a Comment entities', () => {
     expect(id).toEqual(payload.id);
     expect(username).toEqual(payload.username);
     expect(date).toEqual(payload.date);
-    expect(content).toEqual('**komentar telah dihapus**')
+    expect(content).toEqual('**komentar telah dihapus**');
   });
 });

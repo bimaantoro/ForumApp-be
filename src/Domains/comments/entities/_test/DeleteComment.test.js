@@ -23,7 +23,7 @@ describe('a DeleteComment entities', () => {
     expect(() => new DeleteComment(payload)).toThrowError('DELETE_COMMENT.NOT_MEET_DATA_TYPE_SPECIFICATION');
   });
 
-  it('should create addedComment object correctly', () => {
+  it('should create deleteComment object correctly', () => {
     // Arrange
     const payload = {
       id: 'comment-123',
