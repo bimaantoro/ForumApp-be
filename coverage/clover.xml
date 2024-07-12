@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1720818857112" clover="3.2.0">
-  <project timestamp="1720818857112" name="All files">
-    <metrics statements="226" coveredstatements="226" conditionals="177" coveredconditionals="177" methods="60" coveredmethods="60" elements="463" coveredelements="463" complexity="0" loc="226" ncloc="226" packages="11" files="25" classes="25"/>
+<coverage generated="1720819299932" clover="3.2.0">
+  <project timestamp="1720819299932" name="All files">
+    <metrics statements="229" coveredstatements="229" conditionals="177" coveredconditionals="177" methods="62" coveredmethods="62" elements="468" coveredelements="468" complexity="0" loc="229" ncloc="229" packages="12" files="26" classes="26"/>
+    <package name="Applications.security">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="PasswordHash.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Applications/security/PasswordHash.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="Commons.exceptions">
       <metrics statements="22" coveredstatements="22" conditionals="3" coveredconditionals="3" methods="5" coveredmethods="5"/>
       <file name="AuthenticationError.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Commons/exceptions/AuthenticationError.js">
