@@ -30,10 +30,11 @@ describe('a UserLogin entities', () => {
     };
 
     // Action
-    const { username, password } = new UserLogin(payload);
+    const userLogin = new UserLogin(payload);
 
     // Assert
-    expect(username).toEqual(payload.username);
-    expect(password).toEqual(payload.password);
+    expect(userLogin).toBeInstanceOf(UserLogin);
+    expect(userLogin.username).toEqual(payload.username);
+    expect(userLogin.password).toEqual(payload.password);
   });
 });
