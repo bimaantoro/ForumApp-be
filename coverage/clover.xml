@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1720816382092" clover="3.2.0">
-  <project timestamp="1720816382092" name="All files">
-    <metrics statements="213" coveredstatements="213" conditionals="177" coveredconditionals="177" methods="49" coveredmethods="49" elements="439" coveredelements="439" complexity="0" loc="213" ncloc="213" packages="9" files="23" classes="23"/>
+<coverage generated="1720816901554" clover="3.2.0">
+  <project timestamp="1720816901554" name="All files">
+    <metrics statements="219" coveredstatements="219" conditionals="177" coveredconditionals="177" methods="54" coveredmethods="54" elements="450" coveredelements="450" complexity="0" loc="219" ncloc="219" packages="10" files="24" classes="24"/>
     <package name="Commons.exceptions">
       <metrics statements="22" coveredstatements="22" conditionals="3" coveredconditionals="3" methods="5" coveredmethods="5"/>
       <file name="AuthenticationError.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Commons/exceptions/AuthenticationError.js">
@@ -66,6 +66,18 @@
         <line num="18" count="2" type="cond" truecount="4" falsecount="0"/>
         <line num="19" count="1" type="stmt"/>
         <line num="24" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Domains.comments">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+      <file name="CommentRepository.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Domains/comments/CommentRepository.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
       </file>
     </package>
     <package name="Domains.comments.entities">
