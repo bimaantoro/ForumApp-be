@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1720808219259" clover="3.2.0">
-  <project timestamp="1720808219259" name="All files">
-    <metrics statements="175" coveredstatements="175" conditionals="147" coveredconditionals="147" methods="37" coveredmethods="37" elements="359" coveredelements="359" complexity="0" loc="175" ncloc="175" packages="7" files="19" classes="19"/>
+<coverage generated="1720810325012" clover="3.2.0">
+  <project timestamp="1720810325012" name="All files">
+    <metrics statements="186" coveredstatements="186" conditionals="151" coveredconditionals="151" methods="41" coveredmethods="41" elements="378" coveredelements="378" complexity="0" loc="186" ncloc="186" packages="7" files="20" classes="20"/>
     <package name="Commons.exceptions">
       <metrics statements="22" coveredstatements="22" conditionals="3" coveredconditionals="3" methods="5" coveredmethods="5"/>
       <file name="AuthenticationError.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Commons/exceptions/AuthenticationError.js">
@@ -59,7 +59,7 @@
       </file>
     </package>
     <package name="Domains.comments.entities">
-      <metrics statements="41" coveredstatements="41" conditionals="47" coveredconditionals="47" methods="8" coveredmethods="8"/>
+      <metrics statements="50" coveredstatements="50" conditionals="51" coveredconditionals="51" methods="10" coveredmethods="10"/>
       <file name="AddedComment.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Domains/comments/entities/AddedComment.js">
         <metrics statements="10" coveredstatements="10" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
         <line num="3" count="3" type="stmt"/>
@@ -74,18 +74,27 @@
         <line num="23" count="1" type="stmt"/>
       </file>
       <file name="Comment.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Domains/comments/entities/Comment.js">
-        <metrics statements="11" coveredstatements="11" conditionals="17" coveredconditionals="17" methods="2" coveredmethods="2"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="12" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="22" count="4" type="cond" truecount="8" falsecount="0"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="26" count="3" type="cond" truecount="7" falsecount="0"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="32" count="2" type="stmt"/>
+        <metrics statements="20" coveredstatements="20" conditionals="21" coveredconditionals="21" methods="4" coveredmethods="4"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="14" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="25" count="7" type="cond" truecount="8" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="29" count="6" type="cond" truecount="7" falsecount="0"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="37" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="43" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
       </file>
       <file name="DeleteComment.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Domains/comments/entities/DeleteComment.js">
         <metrics statements="10" coveredstatements="10" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
@@ -115,7 +124,7 @@
       </file>
     </package>
     <package name="Domains.replies.entities">
-      <metrics statements="20" coveredstatements="20" conditionals="20" coveredconditionals="20" methods="4" coveredmethods="4"/>
+      <metrics statements="22" coveredstatements="22" conditionals="20" coveredconditionals="20" methods="6" coveredmethods="6"/>
       <file name="AddedReply.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Domains/replies/entities/AddedReply.js">
         <metrics statements="10" coveredstatements="10" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
         <line num="3" count="3" type="stmt"/>
@@ -141,6 +150,11 @@
         <line num="17" count="2" type="cond" truecount="5" falsecount="0"/>
         <line num="18" count="1" type="stmt"/>
         <line num="23" count="1" type="stmt"/>
+      </file>
+      <file name="Reply.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Domains/replies/entities/Reply.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
       </file>
     </package>
     <package name="Domains.threads.entities">

@@ -1,3 +1,5 @@
+const Reply = require("../../replies/entities/Reply");
+
 class Comment {
   constructor(payload) {
     this._verifyPayload(payload);
@@ -10,6 +12,7 @@ class Comment {
     this.username = username;
     this.date = date;
     this.content = isDelete ? '**komentar telah dihapus**' : content;
+    this.replies = [];
   }
 
   _verifyPayload({
@@ -26,6 +29,22 @@ class Comment {
     if (typeof id !== 'string' || typeof username !== 'string' || typeof date !== 'string' || typeof content !== 'string' || typeof isDelete !== 'boolean') {
       throw new Error('COMMENT.NOT_MEET_DATA_TYPE_SPECIFICATION');
     }
+  }
+
+  setReplies(replies) {
+    const isReplyArray = Array.isArray(replies);
+
+    if(!isReplyArray) {
+        throw new Error('COMMENT.REPLIES_NOT_ARRAY');
+    }
+
+    const isAnyInvalidReply = replies.some((reply) => !(reply instanceof Reply))
+
+    if(isAnyInvalidReply) {
+      throw new Error('COMMENT.REPLIES.CONTAINS_INVALID_MEMBER');
+    }
+
+    this.replies = replies;
   }
 }
 

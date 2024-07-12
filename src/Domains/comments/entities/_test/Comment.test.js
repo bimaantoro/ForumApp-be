@@ -1,3 +1,4 @@
+const Reply = require('../../../replies/entities/Reply');
 const Comment = require('../Comment');
 
 describe('a Comment entities', () => {
@@ -39,7 +40,7 @@ describe('a Comment entities', () => {
 
     // Action
     const {
-      id, username, date, content,
+      id, username, date, content, replies
     } = new Comment(payload);
 
     // Assert
@@ -47,5 +48,66 @@ describe('a Comment entities', () => {
     expect(username).toEqual(payload.username);
     expect(date).toEqual(payload.date);
     expect(content).toEqual('**komentar telah dihapus**');
+    expect(replies).toEqual([])
+  });
+
+  it('should throw error when replies not contain array', () => {
+    // Arrange
+    const payload = {
+        id: 'comment-123',
+        username: 'dicoding',
+        date: '2021-08-08T07:19:09.775Z',
+        content: 'sebuah comment',
+        isDelete: false,
+      };
+
+      const comment = new Comment(payload);
+
+      // Action and Assert
+      expect(() => comment.setReplies({})).toThrowError('COMMENT.REPLIES_NOT_ARRAY');
+  })
+
+  it('should throw error when replies not contain Replies object', () => {
+    // Arrange
+    const payload = {
+      id: 'comment-123',
+      username: 'dicoding',
+      date: '2021-08-08T07:59:18.982Z',
+      content: 'sebuah comment',
+      isDelete: false,
+    };
+
+    const comment = new Comment(payload);
+
+    // Action and Assert
+    expect(() => comment.setReplies([{}])).toThrowError('COMMENT.REPLIES.CONTAINS_INVALID_MEMBER');
+  });
+
+it('should set replies correctly', () => {
+    // Arrange
+    const payload = {
+      id: 'comment-123',
+      username: 'dicoding',
+      date: '2021-08-08T07:59:18.982Z',
+      content: 'sebuah comment',
+      isDelete: false,
+    };
+
+    const comment = new Comment(payload);
+    const replies = [
+      new Reply({
+        id: 'reply-123',
+        content: 'sebuah balasan',
+        date: '2021-08-08T08:07:01.522Z',
+        username: 'dicoding',
+        isDelete: false,
+      }),
+    ];
+
+    // Action
+    comment.setReplies(replies);
+
+    // Assert
+    expect(comment.replies).toEqual(replies);
   });
 });
