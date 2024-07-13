@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1720847649888" clover="3.2.0">
-  <project timestamp="1720847649888" name="All files">
-    <metrics statements="242" coveredstatements="242" conditionals="177" coveredconditionals="177" methods="68" coveredmethods="68" elements="487" coveredelements="487" complexity="0" loc="242" ncloc="242" packages="13" files="28" classes="28"/>
+<coverage generated="1720849016150" clover="3.2.0">
+  <project timestamp="1720849016150" name="All files">
+    <metrics statements="258" coveredstatements="258" conditionals="177" coveredconditionals="177" methods="70" coveredmethods="70" elements="505" coveredelements="505" complexity="0" loc="258" ncloc="258" packages="13" files="29" classes="29"/>
     <package name="Applications.security">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
       <file name="AuthenticationTokenManager.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Applications/security/AuthenticationTokenManager.js">
@@ -10,17 +10,17 @@
         <line num="7" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
       </file>
       <file name="PasswordHash.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Applications/security/PasswordHash.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="3" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
       </file>
     </package>
     <package name="Applications.use_case">
-      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <metrics statements="24" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
       <file name="AddUserUseCase.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Applications/use_case/AddUserUseCase.js">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
@@ -31,6 +31,25 @@
         <line num="12" count="1" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
+      </file>
+      <file name="LoginUserUseCase.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Applications/use_case/LoginUserUseCase.js">
+        <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
       </file>
     </package>
     <package name="Commons.exceptions">
@@ -80,23 +99,23 @@
         <line num="3" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
       </file>
     </package>
     <package name="Domains.authentications.entities">
       <metrics statements="10" coveredstatements="10" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
       <file name="NewAuth.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Domains/authentications/entities/NewAuth.js">
         <metrics statements="10" coveredstatements="10" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="12" count="3" type="stmt"/>
-        <line num="14" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="14" count="6" type="cond" truecount="4" falsecount="0"/>
         <line num="15" count="1" type="stmt"/>
-        <line num="18" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="18" count="5" type="cond" truecount="4" falsecount="0"/>
         <line num="19" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
       </file>
     </package>
     <package name="Domains.comments">
@@ -318,7 +337,7 @@
         <line num="7" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
       </file>
     </package>
     <package name="Domains.users.entities">
@@ -355,16 +374,16 @@
       </file>
       <file name="UserLogin.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Domains/users/entities/UserLogin.js">
         <metrics statements="10" coveredstatements="10" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="12" count="3" type="stmt"/>
-        <line num="14" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="14" count="4" type="cond" truecount="4" falsecount="0"/>
         <line num="15" count="1" type="stmt"/>
-        <line num="18" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="18" count="3" type="cond" truecount="4" falsecount="0"/>
         <line num="19" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
       </file>
     </package>
   </project>
