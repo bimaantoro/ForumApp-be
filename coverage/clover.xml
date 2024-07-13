@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1720854501477" clover="3.2.0">
-  <project timestamp="1720854501477" name="All files">
-    <metrics statements="308" coveredstatements="308" conditionals="191" coveredconditionals="191" methods="83" coveredmethods="83" elements="582" coveredelements="582" complexity="0" loc="308" ncloc="308" packages="13" files="34" classes="34"/>
+<coverage generated="1720855569010" clover="3.2.0">
+  <project timestamp="1720855569010" name="All files">
+    <metrics statements="317" coveredstatements="317" conditionals="193" coveredconditionals="193" methods="85" coveredmethods="85" elements="595" coveredelements="595" complexity="0" loc="317" ncloc="317" packages="13" files="35" classes="35"/>
     <package name="Applications.security">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
       <file name="AuthenticationTokenManager.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Applications/security/AuthenticationTokenManager.js">
@@ -20,7 +20,19 @@
       </file>
     </package>
     <package name="Applications.use_case">
-      <metrics statements="74" coveredstatements="74" conditionals="14" coveredconditionals="14" methods="17" coveredmethods="17"/>
+      <metrics statements="83" coveredstatements="83" conditionals="16" coveredconditionals="16" methods="19" coveredmethods="19"/>
+      <file name="AddCommentUseCase.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Applications/use_case/AddCommentUseCase.js">
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="13" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
       <file name="AddThreadUseCase.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Applications/use_case/AddThreadUseCase.js">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
@@ -192,23 +204,23 @@
         <line num="11" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
-        <line num="23" count="2" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
       </file>
     </package>
     <package name="Domains.comments.entities">
       <metrics statements="50" coveredstatements="50" conditionals="51" coveredconditionals="51" methods="10" coveredmethods="10"/>
       <file name="AddedComment.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Domains/comments/entities/AddedComment.js">
         <metrics statements="10" coveredstatements="10" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="13" count="3" type="cond" truecount="5" falsecount="0"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="13" count="5" type="cond" truecount="5" falsecount="0"/>
         <line num="14" count="1" type="stmt"/>
-        <line num="17" count="2" type="cond" truecount="5" falsecount="0"/>
+        <line num="17" count="4" type="cond" truecount="5" falsecount="0"/>
         <line num="18" count="1" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
       </file>
       <file name="Comment.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Domains/comments/entities/Comment.js">
         <metrics statements="20" coveredstatements="20" conditionals="21" coveredconditionals="21" methods="4" coveredmethods="4"/>
@@ -248,16 +260,16 @@
       </file>
       <file name="NewComment.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Domains/comments/entities/NewComment.js">
         <metrics statements="10" coveredstatements="10" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="13" count="3" type="cond" truecount="5" falsecount="0"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="13" count="5" type="cond" truecount="5" falsecount="0"/>
         <line num="14" count="1" type="stmt"/>
-        <line num="17" count="2" type="cond" truecount="5" falsecount="0"/>
+        <line num="17" count="4" type="cond" truecount="5" falsecount="0"/>
         <line num="18" count="1" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
       </file>
     </package>
     <package name="Domains.replies">
@@ -336,7 +348,7 @@
         <line num="3" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
-        <line num="15" count="3" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
       </file>
     </package>
     <package name="Domains.threads.entities">

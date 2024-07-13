@@ -18,7 +18,7 @@ describe('GetThreadUseCase', () => {
       commentRepository: mockCommentRepository,
     });
 
-    const expectedError = new Error('GET_THREAD_USE_CASE_THREAD_NOT_FOUND');
+    const expectedError = new Error('GET_THREAD_USE_CASE.THREAD_NOT_FOUND');
 
     // Action and Assert
     await expect(useCase.execute('thread-123')).rejects.toThrowError(expectedError);
