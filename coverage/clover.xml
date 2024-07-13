@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1720846761479" clover="3.2.0">
-  <project timestamp="1720846761479" name="All files">
-    <metrics statements="234" coveredstatements="234" conditionals="177" coveredconditionals="177" methods="66" coveredmethods="66" elements="477" coveredelements="477" complexity="0" loc="234" ncloc="234" packages="12" files="27" classes="27"/>
+<coverage generated="1720847649888" clover="3.2.0">
+  <project timestamp="1720847649888" name="All files">
+    <metrics statements="242" coveredstatements="242" conditionals="177" coveredconditionals="177" methods="68" coveredmethods="68" elements="487" coveredelements="487" complexity="0" loc="242" ncloc="242" packages="13" files="28" classes="28"/>
     <package name="Applications.security">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
       <file name="AuthenticationTokenManager.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Applications/security/AuthenticationTokenManager.js">
@@ -16,7 +16,21 @@
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="3" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="Applications.use_case">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="AddUserUseCase.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Applications/use_case/AddUserUseCase.js">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
       </file>
     </package>
     <package name="Commons.exceptions">
@@ -304,40 +318,40 @@
         <line num="7" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
       </file>
     </package>
     <package name="Domains.users.entities">
       <metrics statements="34" coveredstatements="34" conditionals="32" coveredconditionals="32" methods="6" coveredmethods="6"/>
       <file name="RegisterUser.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Domains/users/entities/RegisterUser.js">
         <metrics statements="14" coveredstatements="14" conditionals="14" coveredconditionals="14" methods="2" coveredmethods="2"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="13" count="7" type="cond" truecount="5" falsecount="0"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="6" type="cond" truecount="5" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+      </file>
+      <file name="RegisteredUser.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Domains/users/entities/RegisteredUser.js">
+        <metrics statements="10" coveredstatements="10" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
         <line num="3" count="5" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
         <line num="13" count="5" type="cond" truecount="5" falsecount="0"/>
         <line num="14" count="1" type="stmt"/>
         <line num="17" count="4" type="cond" truecount="5" falsecount="0"/>
         <line num="18" count="1" type="stmt"/>
-        <line num="21" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="25" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
-      </file>
-      <file name="RegisteredUser.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Domains/users/entities/RegisteredUser.js">
-        <metrics statements="10" coveredstatements="10" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="13" count="3" type="cond" truecount="5" falsecount="0"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="17" count="2" type="cond" truecount="5" falsecount="0"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
       </file>
       <file name="UserLogin.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Domains/users/entities/UserLogin.js">
         <metrics statements="10" coveredstatements="10" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
