@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1720851285724" clover="3.2.0">
-  <project timestamp="1720851285724" name="All files">
-    <metrics statements="283" coveredstatements="283" conditionals="185" coveredconditionals="185" methods="76" coveredmethods="76" elements="544" coveredelements="544" complexity="0" loc="283" ncloc="283" packages="13" files="31" classes="31"/>
+<coverage generated="1720851905679" clover="3.2.0">
+  <project timestamp="1720851905679" name="All files">
+    <metrics statements="294" coveredstatements="294" conditionals="189" coveredconditionals="189" methods="79" coveredmethods="79" elements="562" coveredelements="562" complexity="0" loc="294" ncloc="294" packages="13" files="32" classes="32"/>
     <package name="Applications.security">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
       <file name="AuthenticationTokenManager.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Applications/security/AuthenticationTokenManager.js">
@@ -20,7 +20,7 @@
       </file>
     </package>
     <package name="Applications.use_case">
-      <metrics statements="49" coveredstatements="49" conditionals="8" coveredconditionals="8" methods="10" coveredmethods="10"/>
+      <metrics statements="60" coveredstatements="60" conditionals="12" coveredconditionals="12" methods="13" coveredmethods="13"/>
       <file name="AddUserUseCase.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Applications/use_case/AddUserUseCase.js">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
@@ -31,6 +31,20 @@
         <line num="12" count="1" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
+      </file>
+      <file name="DeleteAuthenticationUseCase.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Applications/use_case/DeleteAuthenticationUseCase.js">
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="19" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
       </file>
       <file name="LoginUserUseCase.js" path="/home/bimantoro/Developments/Dicoding/codelabs/forumApp-be/src/Applications/use_case/LoginUserUseCase.js">
         <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
@@ -130,7 +144,7 @@
         <line num="3" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
-        <line num="15" count="4" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
       </file>
     </package>
     <package name="Domains.authentications.entities">
